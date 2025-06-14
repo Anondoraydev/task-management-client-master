@@ -64,8 +64,7 @@ const Contact = () => {
           >
             Email Address
           </label>
-        </div>
-
+        </div> 
         <div className="grid md:grid-cols-2 md:gap-6">
           <div className="relative z-0 w-full mb-6 group">
             <input
@@ -105,5 +104,5 @@ const Contact = () => {
       </form>
     </div>
   );
-}; 
+};
 export default Contact;
