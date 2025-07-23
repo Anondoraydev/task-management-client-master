@@ -33,7 +33,6 @@ const Contact = () => {
             Frist Name
           </label>
         </div>
-        
         <div className="relative z-0 w-full mb-6 group">
           <input
             type="text"
