@@ -11,6 +11,7 @@ const PribetRoutes = ({ children }) => {
   } else if (!user) {
     return <Navigate to="/login" />;
   }
+  
   return children;
 };
 
