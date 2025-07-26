@@ -10,8 +10,7 @@ const PribetRoutes = ({ children }) => {
     return <Loading />;
   } else if (!user) {
     return <Navigate to="/login" />;
-  }
-  
+  } 
   return children;
 };
 
