@@ -16,6 +16,7 @@ const PribetRoutes = ({ children }) => {
 
 PribetRoutes.propTypes = {
   children: PropTypes.node.isRequired,
+  
 };
 
 export default PribetRoutes;
